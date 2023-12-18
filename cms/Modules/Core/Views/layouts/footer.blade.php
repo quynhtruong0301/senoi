@@ -4,7 +4,7 @@
             <div class="col-lg-5 col-md-12">
                 <div class="footer-widget">
                     <div class="footer-icon">
-                        <img class="img-fluid" style="height: 100px" src="assets/web/images/logo1.png" alt="">
+                        <img class="img-fluid" style="height: 100px" src="{{ cxl_asset('assets/web/images/logo1.png') }}" alt="">
                     </div>
                     <div class="widget-title">
                         <h2>

@@ -29,7 +29,7 @@
                                         Ngày kết thúc
                                     </th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
-                                        Ảnh ảo
+                                        Tình trạng
                                     </th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
 

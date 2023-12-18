@@ -47,5 +47,5 @@
 
     <!-- style css -->
     <link rel="stylesheet" href="{{ cxl_asset('assets/web/css/style.css') }}">
-
+    @stack('css')
 </head>

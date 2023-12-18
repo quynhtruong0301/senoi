@@ -105,5 +105,17 @@ Route::group([
             Route::post('/update/{id}', 'BannerController@update')->name('admin.banner.update');
             Route::post('/delete/{id}', 'BannerController@delete')->name('admin.banner.delete');
         });
+
+        Route::group([
+            'prefix' => 'contact'
+        ], function () {
+            Route::get('/', 'ContactController@index')->name('admin.contact.index');
+            Route::get('/detail/{id}', 'ContactBlogController@detail')->name('admin.contact.detail');
+            Route::get('/create', 'ContactController@create')->name('admin.contact.create');
+            Route::post('/store', 'ContactController@store')->name('admin.contact.store');
+            Route::get('/edit/{id}', 'ContactController@edit')->name('admin.contact.edit');
+            Route::post('/update/{id}', 'ContactController@update')->name('admin.contact.update');
+            Route::post('/delete/{id}', 'ContactController@delete')->name('admin.contact.delete');
+        });
     });
 });

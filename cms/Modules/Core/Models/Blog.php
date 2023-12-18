@@ -28,5 +28,10 @@ class Blog extends Model
     {
         return $this->belongsTo(Topic::class, 'topic_id', 'id');
     }
+
+    public function comment()
+    {
+        return $this->hasMany(Comment::class, 'blog_id', 'id');
+    }
 }
 

@@ -3,7 +3,7 @@
 @section('main')
     <div class="inner-page-banner">
         <div class="breadcrumb-vec-btm">
-            <img class="img-fluid" src="assets/web/images/bg/inner-banner-btm-vec.png" alt="">
+            <img class="img-fluid" src="{{ cxl_asset('assets/web/images/bg/inner-banner-btm-vec.png') }}" alt="">
         </div>
         <div class="container">
             <div class="row justify-content-center align-items-center text-center">
@@ -15,9 +15,9 @@
                 <div class="col-lg-6">
                     <div class="banner-img d-lg-block d-none">
                         <div class="banner-img-bg">
-                            <img class="img-fluid" src="assets/web/images/bg/inner-banner-vec.png" alt="">
+                            <img class="img-fluid" src="{{ cxl_asset('assets/web/images/bg/inner-banner-vec.png') }}" alt="">
                         </div>
-                        <img class="img-fluid" style="max-height: 300px" src="assets/web/images/thanh-toan.png" alt="">
+                        <img class="img-fluid" style="max-height: 300px" src="{{ cxl_asset('assets/web/images/thanh-toan.png') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -28,8 +28,8 @@
             <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <div class="section-title1 text-center">
-                        <span><img src="assets/images/icon/section-vec-l1.svg" alt="">Nạp thêm Coin nào !!!<img
-                                src="assets/images/icon/section-vec-r1.svg" alt=""></span>
+                        <span><img src="{{ cxl_asset('assets/images/icon/section-vec-l1.svg') }}" alt="">Nạp thêm Coin nào !!!<img
+                                src="{{ cxl_asset('assets/images/icon/section-vec-r1.svg') }}" alt=""></span>
                         <h2>Đang có các gói này nè</h2>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         <div class="row justify-content-center g-lg-4 gy-5">
                             <div class="col-lg-4 col-md-6 col-sm-10">
                                 <div class="pricing-card">
-                                    <img class="price-card-vector" src="assets/images/icon/price-card-bg.svg" alt="">
+                                    <img class="price-card-vector" src="{{ cxl_asset('assets/images/icon/price-card-bg.svg') }}" alt="">
                                     <div class="title">
                                         <h4>Khởi động</h4>
                                         <h2><span class="currency">$</span>20.000<span class="time">vnđ</span></h2>
@@ -60,15 +60,15 @@
                                     <ul>
                                         <li>
                                             Bạn có thêm 20 coin vào tài khoản
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tặng thêm 5 coin cho lần nạp tiếp theo
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tích luỹ để lên hạng thành viên
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                     </ul>
                                     <div class="book-now-btn">
@@ -82,7 +82,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-10">
                                 <div class="pricing-card">
-                                    <img class="price-card-vector" src="assets/images/icon/price-card-bg.svg" alt="">
+                                    <img class="price-card-vector" src="{{ cxl_asset('assets/images/icon/price-card-bg.svg') }}" alt="">
                                     <div class="title">
                                         <h4>Luyện tập</h4>
                                         <h2><span class="currency">$</span>100.000<span class="time">vnđ</span></h2>
@@ -90,15 +90,15 @@
                                     <ul>
                                         <li>
                                             Bạn có thêm 120 coin vào tài khoản
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tặng thêm 5 coin cho lần nạp tiếp theo
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tích luỹ để lên hạng thành viên
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                     </ul>
                                     <div class="book-now-btn">
@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-10">
                                 <div class="pricing-card">
-                                    <img class="price-card-vector" src="assets/images/icon/price-card-bg.svg" alt="">
+                                    <img class="price-card-vector" src="{{ cxl_asset('assets/images/icon/price-card-bg.svg') }}" alt="">
                                     <div class="title">
                                         <h4>Thử sức</h4>
                                         <h2><span class="currency">$</span>200.000<span class="time">vnđ</span></h2>
@@ -120,15 +120,15 @@
                                     <ul>
                                         <li>
                                             Bạn có thêm 250 coin vào tài khoản
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tặng thêm 5 coin cho lần nạp tiếp theo
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tích luỹ để lên hạng thành viên
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                     </ul>
                                     <div class="book-now-btn">
@@ -146,7 +146,7 @@
                         <div class="row justify-content-center g-lg-4 gy-5">
                             <div class="col-lg-4 col-md-6 col-sm-10">
                                 <div class="pricing-card">
-                                    <img class="price-card-vector" src="assets/images/icon/price-card-bg.svg" alt="">
+                                    <img class="price-card-vector" src="{{ cxl_asset('assets/images/icon/price-card-bg.svg') }}" alt="">
                                     <div class="title">
                                         <h4>Dân chơi</h4>
                                         <h2><span class="currency">$</span>500.000<span class="time">vnđ</span></h2>
@@ -154,15 +154,15 @@
                                     <ul>
                                         <li>
                                             Bạn có thêm 600 coin vào tài khoản
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tặng thêm 5 coin cho lần nạp tiếp theo
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tích luỹ để lên hạng thành viên
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                     </ul>
                                     <div class="book-now-btn">
@@ -176,7 +176,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-10">
                                 <div class="pricing-card">
-                                    <img class="price-card-vector" src="assets/images/icon/price-card-bg.svg" alt="">
+                                    <img class="price-card-vector" src="{{ cxl_asset('assets/images/icon/price-card-bg.svg') }}" alt="">
                                     <div class="title">
                                         <h4>Triệu phú</h4>
                                         <h2><span class="currency">$</span>1.000.000<span class="time">vnđ</span></h2>
@@ -184,15 +184,15 @@
                                     <ul>
                                         <li>
                                             Bạn có thêm 1200 coin vào tài khoản
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tặng thêm 5 coin cho lần nạp tiếp theo
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tích luỹ để lên hạng thành viên
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                     </ul>
                                     <div class="book-now-btn">
@@ -206,7 +206,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-10">
                                 <div class="pricing-card">
-                                    <img class="price-card-vector" src="assets/images/icon/price-card-bg.svg" alt="">
+                                    <img class="price-card-vector" src="{{ cxl_asset('assets/images/icon/price-card-bg.svg') }}" alt="">
                                     <div class="title">
                                         <h4>Tỷ phú</h4>
                                         <h2><span class="currency">$</span>2.000.000<span class="time">vnđ</span></h2>
@@ -214,15 +214,15 @@
                                     <ul>
                                         <li>
                                             Bạn có thêm 2500 coin vào tài khoản
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tặng thêm 5 coin cho lần nạp tiếp theo
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                         <li>
                                             Tích luỹ để lên hạng thành viên
-                                            <img src="assets/images/icon/pricing-check.svg" alt="">
+                                            <img src="{{ cxl_asset('assets/images/icon/pricing-check.svg') }}" alt="">
                                         </li>
                                     </ul>
                                     <div class="book-now-btn">

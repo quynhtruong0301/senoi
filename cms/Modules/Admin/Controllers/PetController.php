@@ -52,6 +52,12 @@ class PetController extends Controller
 
     public function delete($id)
     {
+        $this->petService->delete($id);
 
+        return response()->json([
+            'status' => 200,
+            'errors' => false,
+            'message' => 'Delete success',
+        ], 200);
     }
 }

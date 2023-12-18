@@ -23,12 +23,11 @@
 <script src="{{ cxl_asset('assets/web/js/morphext.min.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/odometer.min.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/jquery.marquee.min.js') }}"></script>
+@stack('js')
 <script src="{{ cxl_asset('assets/web/js/viewport.jquery.js') }}"></script>
-<script src="{{ cxl_asset('assets/web/js/isotope.pkgd.min.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/SmoothScroll.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/jquery.nice-number.min.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/masonry.pkgd.min.js') }}"></script>
 <script src="{{ cxl_asset('assets/web/js/main.js') }}"></script>
-@stack('js')
 </html>

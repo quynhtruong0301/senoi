@@ -2469,12 +2469,7 @@ header.style-3 .nav-right ul li a svg {
   fill: var(--primary-color3);
   transition: 0.35s;
 }
-header.style-3 .nav-right ul li a:hover {
-  background: var(--primary-color3);
-}
-header.style-3 .nav-right ul li a:hover svg {
-  fill: var(--white);
-}
+
 header.style-3 .nav-right ul li.search-btn {
   padding: 20px 0;
   cursor: pointer;
@@ -2912,9 +2907,6 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
     height: 33px;
     width: 33px;
     line-height: 1;
-    border-radius: 50%;
-    border: 1px solid;
-    border-color: #F46F30;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2929,18 +2921,13 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--gradient-color);
     opacity: 1;
     transition: 0.35s;
     border-radius: 50%;
     z-index: -1;
   }
   .header-area .main-menu .for-mobile-menu .social-link li > a svg {
-    fill: var(--white);
-  }
-  .header-area .main-menu .for-mobile-menu .social-link li > a:hover {
-    border-color: #F46F30;
-    background-color: var(--primary-color3);
+    fill: var(--primary-color3);
   }
   .header-area .main-menu .for-mobile-menu .social-link li > a:hover::after {
     opacity: 0;
@@ -3002,9 +2989,6 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
     height: 33px;
     width: 33px;
     line-height: 1;
-    border-radius: 50%;
-    border: 1px solid;
-    border-color: #F46F30;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3019,25 +3003,12 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--primary-color3);
     opacity: 1;
     transition: 0.35s;
     border-radius: 50%;
     z-index: -1;
   }
-  .header-area.style-3 .main-menu .for-mobile-menu .social-link li > a svg {
-    fill: var(--white);
-  }
-  .header-area.style-3 .main-menu .for-mobile-menu .social-link li > a:hover {
-    border-color: #F46F30;
-    background: var(--primary-color3);
-  }
-  .header-area.style-3 .main-menu .for-mobile-menu .social-link li > a:hover::after {
-    opacity: 0;
-  }
-  .header-area.style-3 .main-menu .for-mobile-menu .social-link li > a:hover svg {
-    fill: var(--white);
-  }
+
 }
 @media (max-width: 991px) {
   .header-area.style-2 .main-menu .for-mobile-menu .mobile-menu-form .input-with-btn input {

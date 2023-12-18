@@ -16,7 +16,7 @@ class AttributeSeeder extends Seeder
     public function run()
     {
         $attributes = [
-            'fur-color' => [
+            'màu lông' => [
                 [
                     'value' => 'red',
                     'display_name' => 'Đỏ'
@@ -30,7 +30,7 @@ class AttributeSeeder extends Seeder
                     'display_name' => 'Đen'
                 ],
             ],
-            'nation' => [
+            'quốc tịch' => [
                 [
                     'value' => 'vietnam',
                     'display_name' => 'Việt Nam'
@@ -44,7 +44,7 @@ class AttributeSeeder extends Seeder
                     'display_name' => 'Nga'
                 ],
             ],
-            'gender' => [
+            'giới tính' => [
                 [
                     'value' => 'male',
                     'display_name' => 'Đực'

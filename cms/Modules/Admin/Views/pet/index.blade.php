@@ -8,39 +8,7 @@
                     <div class="card-header pb-0">
                         <div class="d-flex">
                             <h6 style="margin-right: 30px" class="mr-5">Danh sách thú cưng</h6>
-                            <a class="btn btn-primary btn-sm w-40" href="{{ route('admin.pet.create') }}">Kiểm duyệt bài đăng</a>
                         </div>
-                        <form method="get" action="{{ route('admin.category.index') }}">
-                            <div class="d-flex justify-content-start flex-wrap gap-2">
-                                @csrf
-                                <select name="category_id" class="form-control w-20">
-                                    <option value="">Danh mục</option>
-                                    <option value="">Chó</option>
-                                    <option value="">Mèo</option>
-                                    <option value="">Gà</option>
-                                </select>
-                                <select name="category_id" class="form-control w-20">
-                                    <option value="">Loại bài</option>
-                                    <option value="">Cho tặng</option>
-                                    <option value="">Đăng bán</option>
-                                </select>
-                                <select name="category_id" class="form-control w-20">
-                                    <option value="">Trạng thái</option>
-                                    <option value="">Chưa bán</option>
-                                    <option value="">Đã bán</option>
-                                </select>
-                                <select name="category_id" class="form-control w-20">
-                                    <option value="">Kiểm duyệt</option>
-                                    <option value="">Đã kiểm duyệt</option>
-                                    <option value="">Chưa kiểm duyệt</option>
-                                </select>
-                                <input type="number" class="form-control w-20" placeholder="Giá thấp nhất" />
-                                <input type="number" class="form-control w-20" placeholder="Giá cao nhất" />
-                                <input type="date" class="form-control w-20" />
-                                <input type="date" class="form-control w-20" />
-                                <button class="btn btn-danger mb-0">Tìm kiếm</button>
-                            </div>
-                        </form>
                     </div>
                     <div class="card-body px-0 pt-0 pb-2">
                         <div class="table-responsive p-0">
@@ -151,7 +119,7 @@
                     <h5 class="modal-title">Thông báo:</h5>
                 </div>
                 <div class="modal-body">
-                    Bạn có chắc muốn xoá danh mục này？
+                    Bạn có chắc muốn xoá bài đăng này？
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>

@@ -76,6 +76,8 @@ class CoreServiceProvider extends CmsServiceProvider
                 CmsSetupCommand::class,
             ]);
         }
+
+        view()->composer('Core::app', 'Cms\Modules\Core\ViewComposer');
     }
 
     public function register()

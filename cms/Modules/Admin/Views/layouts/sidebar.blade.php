@@ -21,16 +21,8 @@
                 <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Người dùng</h6>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'dashboard') ? "active" : "" }}" href="{{ route('admin.dashboard') }}">
-                    <div
-                        class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-tv-2 text-primary text-sm opacity-10"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Thống kê</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'category') ? "active" : "" }}" href="{{ route('admin.category.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'category') ? "active" : "" }}"
+                   href="{{ route('admin.category.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-app text-success text-sm opacity-10"></i>
@@ -39,7 +31,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'attribute') ? "active" : "" }}" href="{{ route('admin.attribute.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'attribute') ? "active" : "" }}"
+                   href="{{ route('admin.attribute.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-tag text-primary text-sm opacity-10"></i>
@@ -48,16 +41,18 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'topic') ? "active" : "" }}" href="{{ route('admin.topic.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'topic') ? "active" : "" }}"
+                   href="{{ route('admin.topic.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-books text-info text-sm opacity-10"></i>
+                        <i class="ni ni-app text-info text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Chủ đề</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'blog') ? "active" : "" }}" href="{{ route('admin.blog.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'blog') ? "active" : "" }}"
+                   href="{{ route('admin.blog.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-books text-info text-sm opacity-10"></i>
@@ -66,7 +61,8 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'pet') ? "active" : "" }}" href="{{ route('admin.pet.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'pet') ? "active" : "" }}"
+                   href="{{ route('admin.pet.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
@@ -75,42 +71,23 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'banner') ? "active" : "" }}" href="{{ route('admin.banner.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'banner') ? "active" : "" }}"
+                   href="{{ route('admin.banner.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-world-2 text-danger text-sm opacity-10"></i>
+                        <i class="ni ni-calendar-grid-58 text-primary text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">Banner</span>
                 </a>
             </li>
-            <li class="nav-item mt-3">
-                <h6 class="ps-4 ms-2 text-uppercase text-xs font-weight-bolder opacity-6">Hệ thống</h6>
-            </li>
             <li class="nav-item">
-                <a class="nav-link {{ str_contains(url()->current(), 'user') ? "active" : "" }}" href="{{ route('admin.user.index') }}">
+                <a class="nav-link {{ str_contains(url()->current(), 'contact') ? "active" : "" }}"
+                   href="{{ route('admin.contact.index') }}">
                     <div
                         class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-user-run text-warning text-sm opacity-10"></i>
+                        <i class="ni ni-collection text-danger text-sm opacity-10"></i>
                     </div>
-                    <span class="nav-link-text ms-1">Quản trị viên</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ route('admin.user.index') }}">
-                    <div
-                        class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-user-run text-warning text-sm opacity-10"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Lịch sử nạp tiền</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ route('admin.user.index') }}">
-                    <div
-                        class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-                        <i class="ni ni-user-run text-warning text-sm opacity-10"></i>
-                    </div>
-                    <span class="nav-link-text ms-1">Giao dịch hệ thống</span>
+                    <span class="nav-link-text ms-1">Liên hệ</span>
                 </a>
             </li>
         </ul>

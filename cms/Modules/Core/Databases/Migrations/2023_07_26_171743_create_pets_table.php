@@ -25,7 +25,7 @@ class CreatePetsTable extends Migration
             $table->bigInteger('price');
             $table->longText('description');
             $table->tinyInteger('sold')->default(0);
-            $table->integer('favorite')->default(0); // số người thêm vào ưa thích
+            $table->integer('favorite')->default(0);
             $table->tinyInteger('free')->default(0);
             $table->tinyInteger('active')->default(0);
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');

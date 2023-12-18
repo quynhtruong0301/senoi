@@ -15,11 +15,11 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             SampleAuthSeeder::class,
-//            AddressSeeder::class,
-//            PassportSeeder::class,
-//            CategorySeeder::class,
-//            AttributeSeeder::class,
-//            UserSeeder::class
+            AddressSeeder::class,
+            PassportSeeder::class,
+            CategorySeeder::class,
+            AttributeSeeder::class,
+            UserSeeder::class
         ]);
     }
 }
